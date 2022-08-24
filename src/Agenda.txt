@@ -1,0 +1,48 @@
+Steps for Basic Setup of Typescript application
+    npm init
+    typescript as a dependecy 
+    Types 
+    tsconfig.json => Specifying the configuration for typescript compiler
+
+Typescript Decorators
+    Extension over the features the class is fulfilling
+        Logging on to Method/Parameter/Property
+        Styling
+        Formatting (Date Time Formatter)
+        Validation
+
+    Parts of Class
+    Extending Class fields => Property Decorator
+    Constuctor => Class Decorator
+    Methods => Method Decorator
+        Method Paramters => Parameter Decorator
+    
+    No instance creation done via Decorator
+    No Asynchronous Logic is being added 
+
+    USP : 
+    Decorators for reusability.
+
+    Examples:
+        Minimum pass Validation
+        Login Validators
+        Date Time Formatter
+        Trim type Formatter
+
+
+    Method Decorator
+    Class Decorator
+    Parameter Decorator
+    Property Decorator
+
+    Reusability of features in the code base 
+
+Typescript Generics: 
+        Using Generics expect T type functions, 
+    Method Generics
+        Any is Data type T is type of Generic, T is standard that we should follow
+    Class Generics
+        Grid => as UI Component (UI model)
+            2 different routes => 
+            Generic Classes for Row and Column 
+                Row => id => T <number, string> => Data Models Definition should be generic based
